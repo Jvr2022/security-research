@@ -14,9 +14,9 @@ Android, and open-source software.
 
 | Area        | What's in it                                            |
 |-------------|---------------------------------------------------------|
-| `writeups/` | Per-finding technical writeups + self-contained PoCs    |
-| `pocs/`     | Standalone proof-of-concepts                            |
-| `scanners/` | Safe, detection-only checks for vuln classes            |
+| `writeups/` | Per-finding technical writeups                          |
+| `pocs/`     | Proof-of-concepts, one folder per finding               |
+| `scanners/` | Detection-only checks for vuln classes                  |
 | `tools/`    | Shared helpers (HTTP, encoding, blind-extraction oracle)|
 
 ## Disclosed findings
@@ -24,6 +24,7 @@ Android, and open-source software.
 | ID             | Target              | Class            | Severity | Writeup |
 |----------------|---------------------|------------------|----------|---------|
 | CVE-2026-55509 | WsgiDAV (MySQL provider) | Blind SQLi (CWE-89) | High | [link](writeups/CVE-2026-55509-wsgidav-mysql-sqli) |
+| CVE-2026-48815 | sigstore-js (npm) | Signature-verification bypass (CWE-347) | High | [link](writeups/CVE-2026-48815-sigstore-js-certoid-bypass) |
 
 ## Disclosure & ethics
 
