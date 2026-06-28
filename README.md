@@ -1,18 +1,32 @@
-# CVE Writeups
+# Security Research
 
-A collection of my public CVE writeups, proof-of-concepts, and vulnerability research notes.
+Public CVE writeups, reproducible proof-of-concepts, and reusable scanners
+from my vulnerability research.
 
-I’m Joshua van Rijswijk (`jvr2022`), a security researcher focused on web, Android, and open-source security.
+I'm Joshua van Rijswijk (`jvr2022`) - security researcher focused on web,
+Android, and open-source software.
 
-This repository contains writeups for vulnerabilities I’ve researched and disclosed, including technical details, impact, affected versions, PoCs, and references.
+- Website: https://jvr2022.tech
+- Vuln research: https://jvr2022.tech/vulns
+- GitHub: https://github.com/Jvr2022
 
 ## Contents
 
-* CVE writeups
-* Proof-of-concepts
+| Area        | What's in it                                            |
+|-------------|---------------------------------------------------------|
+| `writeups/` | Per-finding technical writeups + self-contained PoCs    |
+| `pocs/`     | Standalone proof-of-concepts                            |
+| `scanners/` | Safe, detection-only checks for vuln classes            |
+| `tools/`    | Shared helpers (HTTP, encoding, blind-extraction oracle)|
 
-## Links
+## Disclosed findings
 
-* GitHub: `Jvr2022`
-* Website: `jvr2022.tech`
-* Vulnerability research: `jvr2022.tech/vulns`
+| ID             | Target              | Class            | Severity | Writeup |
+|----------------|---------------------|------------------|----------|---------|
+| CVE-2026-55509 | WsgiDAV (MySQL provider) | Blind SQLi (CWE-89) | High | [link](writeups/CVE-2026-55509-wsgidav-mysql-sqli) |
+
+## Disclosure & ethics
+
+Everything here is published **after** responsible disclosure and a fix
+(or a coordinated deadline). PoCs are for testing systems you own or are
+authorized to test. See [DISCLOSURE.md](DISCLOSURE.md).
