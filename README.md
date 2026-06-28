@@ -25,6 +25,10 @@ Android, and open-source software.
 |----------------|---------------------|------------------|----------|---------|
 | CVE-2026-55509 | WsgiDAV (MySQL provider) | Blind SQLi (CWE-89) | High | [link](writeups/CVE-2026-55509-wsgidav-mysql-sqli) |
 | CVE-2026-48815 | sigstore-js (npm) | Signature-verification bypass (CWE-347) | High | [link](writeups/CVE-2026-48815-sigstore-js-certoid-bypass) |
+| GHSA-j8v8-g9cx-5qf4 | @better-auth/scim (npm) | Missing Owner Binding (CWE-862, CWE-639) | High | [link](writeups/GHSA-j8v8-g9cx-5qf4-better-auth-scim-token-takeover) |
+| CVE-2026-6322 | fast-uri (npm) | Host Confusion (CWE-436) | High | [link](writeups/CVE-2026-6322-fast-uri-host-confusion) |
+| CVE-2026-6321 | fast-uri (npm) | Path Traversal Normalization (CWE-22) | High | [link](writeups/CVE-2026-6321-fast-uri-path-traversal) |
+| CVE-2026-41243 | openlearn (npm) | Improper Access Control (CWE-284) | Moderate | [link](writeups/CVE-2026-41243-openlearn-moderation-bypass) |
 
 ## Disclosure & ethics
 
