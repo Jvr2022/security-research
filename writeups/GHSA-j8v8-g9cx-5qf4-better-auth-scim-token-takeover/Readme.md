@@ -5,11 +5,11 @@ target: better-auth (@better-auth/scim)
 ecosystem: npm
 affected: >= 1.5.0, < 1.7.0-beta.4
 patched: 1.7.0-beta.4
-cwe: CWE-862, CWE-639
+cwe: "CWE-862, CWE-639"
 severity: High
-cvss: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+cvss: "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L"
 reporter: jvr2022
-disclosed: 2026-05-22
+disclosed: "2026-05-22"
 ---
 
 # Account/provider takeover via missing owner binding on non-org SCIM providers in @better-auth/scim
