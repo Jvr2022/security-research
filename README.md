@@ -29,6 +29,12 @@ Android, and open-source software.
 | CVE-2026-6322 | fast-uri (npm) | Host Confusion (CWE-436) | High | [link](writeups/CVE-2026-6322-fast-uri-host-confusion) |
 | CVE-2026-6321 | fast-uri (npm) | Path Traversal Normalization (CWE-22) | High | [link](writeups/CVE-2026-6321-fast-uri-path-traversal) |
 | CVE-2026-41243 | openlearn (npm) | Improper Access Control (CWE-284) | Moderate | [link](writeups/CVE-2026-41243-openlearn-moderation-bypass) |
+| CVE-2026-42333 | quarkus-openapi-generator (maven) | Credential Leak (CWE-200) | Moderate | [link](writeups/CVE-2026-42333-quarkus-openapi-generator-credential-leak) |
+| CVE-2026-41673 | @xmldom/xmldom (npm) | DoS via Recursion (CWE-674) | High | [link](writeups/CVE-2026-41673-xmldom-dos-recursion) |
+| CVE-2026-41672 | @xmldom/xmldom (npm) | XML Injection (CWE-91) | High | [link](writeups/CVE-2026-41672-xmldom-xml-injection) |
+| CVE-2026-35525 | liquidjs (npm) | Symlink Bypass (CWE-61) | High | [link](writeups/CVE-2026-35525-liquidjs-symlink-bypass) |
+| GHSA-5jg4-p4qw-cgfr | @stablelib/cbor (npm) | DoS via Recursion (CWE-674) | Low | [link](writeups/GHSA-5jg4-p4qw-cgfr-stablelib-cbor-dos) |
+| GHSA-w48f-fwg7-ww6p | @stablelib/cbor (npm) | Prototype Poisoning (CWE-1321) | High | [link](writeups/GHSA-w48f-fwg7-ww6p-stablelib-cbor-prototype-poisoning) |
 
 ## Disclosure & ethics
 
