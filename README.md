@@ -23,6 +23,7 @@ Android, and open-source software.
 
 | ID             | Target              | Class            | Severity | Writeup |
 |----------------|---------------------|------------------|----------|---------|
+| CVE-2026-6556 | @fastify/express (npm) | Middleware Bypass via non-string mount paths in prefixed plugins (CWE-285) | Critical | [link](writeups/CVE-2026-6556-fastify-express-middleware-bypass) |
 | CVE-2026-55509 | WsgiDAV (MySQL provider) | Blind SQLi (CWE-89) | High | [link](writeups/CVE-2026-55509-wsgidav-mysql-sqli) |
 | CVE-2026-48815 | sigstore-js (npm) | Signature-verification bypass (CWE-347) | High | [link](writeups/CVE-2026-48815-sigstore-js-certoid-bypass) |
 | GHSA-j8v8-g9cx-5qf4 | @better-auth/scim (npm) | Missing Owner Binding (CWE-862, CWE-639) | High | [link](writeups/GHSA-j8v8-g9cx-5qf4-better-auth-scim-token-takeover) |
